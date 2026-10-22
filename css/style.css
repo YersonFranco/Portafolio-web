@@ -85,3 +85,35 @@ footer {
 footer p {
   margin: 0;
 }
+
+section article {
+  background: var(--color-tarjeta);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+article h3 {
+  margin-top: 0;
+}
+
+article img {
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.boton {
+  display: inline-block;
+  background: var(--color-principal);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+}
+
+.boton:hover,
+.boton:focus {
+  background: var(--color-oscuro);
+}
