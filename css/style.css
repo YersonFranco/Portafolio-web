@@ -117,3 +117,19 @@ article img {
 .boton:focus {
   background: var(--color-oscuro);
 }
+
+@media (min-width: 768px) {
+  #proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  #proyectos h2 {
+    grid-column: 1 / -1;
+  }
+
+  #proyectos article {
+    margin-bottom: 0;
+  }
+}
