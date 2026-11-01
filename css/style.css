@@ -118,6 +118,33 @@ article img {
   background: var(--color-oscuro);
 }
 
+.acciones-proyecto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.acciones-proyecto .boton {
+  flex: 1 1 6.5rem;
+  min-width: 0;
+  padding: 0.6rem 0.5rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.acciones-proyecto .boton-secundario {
+  border: 2px solid var(--color-principal);
+  background: transparent;
+  color: var(--color-principal);
+}
+
+.acciones-proyecto .boton-secundario:hover,
+.acciones-proyecto .boton-secundario:focus-visible {
+  background: var(--color-oscuro);
+  color: #ffffff;
+}
+
 @media (min-width: 768px) {
   #proyectos {
     display: grid;
