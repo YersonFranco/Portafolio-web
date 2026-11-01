@@ -148,7 +148,7 @@ article img {
 @media (min-width: 768px) {
   #proyectos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
   }
 
