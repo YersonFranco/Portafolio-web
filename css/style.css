@@ -7,6 +7,41 @@
   background-color: #1e3a8a;
 }
 
+.site-header-brand {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.riwi-logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 124px;
+  height: 62px;
+  object-fit: contain;
+  transform: translateY(-65%);
+}
+
+.riwi-logo-subpage {
+  display: block;
+  width: 108px;
+  height: 54px;
+  margin: 0 auto 8px;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .riwi-logo {
+    position: static;
+    display: block;
+    width: 112px;
+    height: 56px;
+    margin: 0 auto 12px;
+    transform: none;
+  }
+}
+
 .btn-primary {
   --bs-btn-bg: #1d4ed8;
   --bs-btn-border-color: #1d4ed8;
@@ -23,6 +58,21 @@
   --bs-btn-hover-border-color: #1e3a8a;
   --bs-btn-active-bg: #1e3a8a;
   --bs-btn-active-border-color: #1e3a8a;
+}
+
+.portfolio-thumbnail {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: contain;
+  object-position: center;
+  margin-inline: auto;
+}
+
+@media (max-width: 576px) {
+  .portfolio-thumbnail {
+    height: 170px;
+  }
 }
 
 html {
