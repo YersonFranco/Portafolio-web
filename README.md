@@ -4,7 +4,7 @@ Portafolio personal desarrollado como actividad académica para presentar mi per
 
 ## Sobre el proyecto
 
-La página principal incluye una presentación, una sección «Acerca de mí», experiencia simulada para la actividad y accesos a proyectos individuales y grupales. Las páginas de proyectos muestran capturas, descripciones y enlaces para visitar los trabajos publicados.
+La página principal incluye una presentación, una sección «Acerca de mí», experiencia simulada para la actividad y accesos a proyectos individuales, grupales y módulos de formación. Las páginas de proyectos muestran capturas, descripciones y enlaces para visitar los trabajos publicados.
 
 ## Tecnologías
 
@@ -20,6 +20,7 @@ La página principal incluye una presentación, una sección «Acerca de mí», 
 - **Sección de Conferencistas:** [ver en vivo](https://yersonfranco.github.io/Eventos/)
 - **Proyectos grupales:** [ver página](https://yersonfranco.github.io/Portafolio-web/pages/group.html)
 - **Proyectos individuales:** [ver página](https://yersonfranco.github.io/Portafolio-web/pages/individual.html)
+- **Módulo de desarrollo (entregables de Moodle):** [ver página](https://yersonfranco.github.io/Portafolio-web/pages/desarrollo.html)
 
 ## Estructura
 
