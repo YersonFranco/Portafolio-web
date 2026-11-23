@@ -1,37 +1,39 @@
 # Portafolio web — Yerson Franco
 
-Portafolio personal desarrollado como actividad académica para presentar mi perfil y reunir proyectos realizados durante mi formación como desarrollador de software.
+Portafolio personal desarrollado como actividad académica para presentar mi perfil y organizar los trabajos realizados durante mi formación como desarrollador de software.
 
 ## Sobre el proyecto
 
-La página principal incluye una presentación, una sección «Acerca de mí», experiencia simulada para la actividad y accesos a proyectos individuales, grupales y módulos de formación. Las páginas de proyectos muestran capturas, descripciones y enlaces para visitar los trabajos publicados.
+La página principal presenta mi perfil, experiencia y tarjetas para navegar entre los trabajos individuales y grupales del Team Leader y los módulos de Algoritmia, Inteligencia Artificial y Desarrollo. Las páginas internas reúnen proyectos con capturas, descripciones y enlaces a sus versiones publicadas y repositorios.
 
 ## Tecnologías
 
 - HTML5
 - CSS3
 - Bootstrap 5.3.3
+- Bootstrap Icons
 
-> La consigna de la actividad pide construir la interfaz con HTML y CSS propios, sin frameworks. Actualmente las páginas enlazan Bootstrap 5.3.3; habría que retirarlo y reemplazar las clases de Bootstrap por estilos propios para cumplir completamente ese requisito.
+## Secciones y proyectos
 
-## Proyectos incluidos
+- **[Portafolio principal](https://yersonfranco.github.io/Portafolio-web/):** presentación, experiencia y accesos a las secciones de trabajos y módulos.
+- **[Trabajos individuales del TL](https://yersonfranco.github.io/Portafolio-web/pages/individual.html):** Sección de Conferencistas, Hoja de vida, Librería de botones y páginas replicadas de Start Bootstrap y KFC.
+- **[Trabajos grupales del TL](https://yersonfranco.github.io/Portafolio-web/pages/group.html):** plataformas web de eventos y librería.
+- **[Módulo de Algoritmia](https://yersonfranco.github.io/algoritmia/):** ejercicios y proyectos del módulo.
+- **[Módulo de Inteligencia Artificial](https://yersonfranco.github.io/inteligencia_artificial/index.html):** proyectos y actividades del módulo.
+- **[Módulo de Desarrollo — entregables de Moodle](https://yersonfranco.github.io/Portafolio-web/pages/desarrollo.html):** Proyecto modular Café Aurora, Perfil personal y Rueda libre. Desde esta página se puede visitar cada proyecto publicado y su repositorio.
 
-- **Hoja de vida:** [ver en vivo](https://yersonfranco.github.io/Hoja-de-vida/)
-- **Sección de Conferencistas:** [ver en vivo](https://yersonfranco.github.io/Eventos/)
-- **Proyectos grupales:** [ver página](https://yersonfranco.github.io/Portafolio-web/pages/group.html)
-- **Proyectos individuales:** [ver página](https://yersonfranco.github.io/Portafolio-web/pages/individual.html)
-- **Módulo de desarrollo (entregables de Moodle):** [ver página](https://yersonfranco.github.io/Portafolio-web/pages/desarrollo.html)
-
-## Estructura
+## Estructura del proyecto
 
 ```text
 Portafolio-web/
 ├── index.html
+├── README.md
 ├── css/
 │   └── style.css
 ├── img/
-│   └── capturas e imágenes del portafolio
+│   └── imágenes e iconos de las tarjetas y proyectos
 └── pages/
+    ├── desarrollo.html
     ├── group.html
     └── individual.html
 ```
@@ -40,5 +42,3 @@ Portafolio-web/
 
 - **Portafolio:** https://yersonfranco.github.io/Portafolio-web/
 - **Repositorio:** https://github.com/YersonFranco/Portafolio-web
-
-> La URL del portafolio corresponde a la ruta esperada de GitHub Pages para este repositorio. Confirma que GitHub Pages esté habilitado y que la página cargue antes de entregar el enlace.
